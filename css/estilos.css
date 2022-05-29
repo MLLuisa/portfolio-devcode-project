@@ -1,0 +1,65 @@
+.lateral {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    width: 350px;
+    background-color: aqua;
+    padding: 1em;
+}
+.top-info {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.perfil_foto {
+    width: 130px;
+    height: 140px;
+    overflow: hidden;
+    border-radius: 120px;
+    margin-top: 5px;
+}
+.nombre_perfil {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 200px;
+    padding: 10px;
+}
+
+.informacion_titulo {
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.informacion{
+    color:indigo;
+    position: absolute;
+    bottom: 2em; 
+}
+
+.habilidad {
+    background-color:brown;
+    color: black;
+    font-size: 15px;
+    padding: 0.5em;
+    display: inline-block;
+    align-content: center;
+}
+.proyecto1 {
+    display: inline-block;
+    padding-left: 400px;
+    width: 350px;
+}
+.proyecto3 {
+    display: inline-block;
+    padding-left: 400px;
+    width: 350px;
+}
+.habilidades {
+    padding: 0;
+}
+h3 {
+    color: red;
+    font-size: 20px;
+}
